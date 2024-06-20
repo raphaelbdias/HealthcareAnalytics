@@ -4,7 +4,7 @@
 
 .stApp {
     background: linear-gradient(45deg, #DFE3E5 35%, #7DE2E7 45%, #45D5DD 55%, #99DAF3 90%);
-    animation: my_animation 20s ease infinite;
+    animation: my_animation 8s ease infinite;
     background-size: 200% 200%;
     background-attachment: fixed;
 }

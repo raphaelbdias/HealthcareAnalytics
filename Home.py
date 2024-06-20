@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-st.set_page_config(page_title="Healthcare Analytics", page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Home", page_icon=":hospital:", layout="wide", initial_sidebar_state="collapsed", menu_items=None)
 
 
 with open( "files/style.css" ) as css:

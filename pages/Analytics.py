@@ -11,7 +11,7 @@ from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 
 
-st.set_page_config(page_title="Healthcare Analytics", page_icon=None, initial_sidebar_state="collapsed", menu_items=None, )
+st.set_page_config(page_title="Healthcare Analytics", page_icon=":hospital:", initial_sidebar_state="collapsed", menu_items=None, )
 
 with open( "files/style.css" ) as css:
     st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)

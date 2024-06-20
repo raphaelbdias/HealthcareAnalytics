@@ -63,7 +63,7 @@ with col1:
         st.markdown('<b>Summary statistics of numerical data</b>', unsafe_allow_html=True)
 
 
-        st.write(data[['Age', 'Scholarship', 'Hypertension',
+        st.write(data[['Age', 'Hypertension',
             'Diabetes', 'Alcoholism', 'Handicap']].describe())
         
         with st.container(border=True):

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+body * {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Custom positioning for text */
+.title-text {
+    position: absolute;
+    top: 40vh;
+    left: 20px;
+    color: black;
+    font-size: 4.2vh;
+    z-index: 1000;
+    font-weight: 570;
+}
+
+.subtitle-text {
+    position: absolute;
+    top: 47vh;
+    left: 20px;
+    color: black;
+    font-size: 4.2vh;
+    z-index: 1000;
+    font-weight: 400;
+}
+
+.datetitle-text {
+    position: absolute;
+    top: 47vh;
+    left: 20px;
+    color: black;
+    font-size: 4.2vh;
+    z-index: 1000;
+    font-weight: 470;
+}
+
+
+.page1title-text {
+    left: 20px;
+    color: black;
+    font-size: 4.2vh;
+    z-index: 1000;
+    font-weight: 570;
+}
+
+.charttitle-text {
+    text-align: left;
+    color: black;
+    font-size: small;
+    z-index: 1000;
+    font-weight: 400;
+    margin-bottom: 4vh;
+}
+.stApp > sidebar {
+    background-color: red;
+}
